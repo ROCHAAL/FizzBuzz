@@ -1,9 +1,9 @@
 class FizzBuzz
-  def divisible_by_three(number)
+  def mutiple_of_three(number)
     return 'Fizz'
   end
 
-  def divisible_by_five(number)
+  def mutiple_of_five(number)
     return 'Buzz'
-  end 
+  end
 end

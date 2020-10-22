@@ -6,15 +6,15 @@
             expect(FizzBuzz).to  eq(FizzBuzz)
           end
 
-          it  'takes a multiple of 3 as an input and return the string Fizz' do
+            it  'takes a multiple of 3 as an input and return the string Fizz' do
               fizz_buzz = FizzBuzz.new
-              result = fizz_buzz.divisible_by_three(3)
+              result = fizz_buzz.mutiple_of_three(3)
               expect(result).to eq('Fizz')
           end
 
-          it 'takes a multiple of 5 as an input and return the string Buzz' do
+            it 'takes a multiple of 5 as an input and return the string Buzz' do
               fizz_buzz = FizzBuzz.new
-              result = fizz_buzz.divisible_by_five(5)
+              result = fizz_buzz.mutiple_of_five(5)
               expect(result).to eq('Buzz')
           end
         end
