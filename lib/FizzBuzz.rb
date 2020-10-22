@@ -1,6 +1,9 @@
 class FizzBuzz
+  def divisible_by_three(number)
+    return 'Fizz'
+  end
 
-  def input_number(number)
+  def divisible_by_five(number)
+    return 'Buzz'
   end 
-
 end
