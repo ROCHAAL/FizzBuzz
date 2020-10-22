@@ -1,6 +1,6 @@
 class FizzBuzz
 
-  def input(multiples_of_three)
-  end
+  def input_number(number)
+  end 
 
 end
